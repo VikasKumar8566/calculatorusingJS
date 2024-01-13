@@ -1,0 +1,141 @@
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(222, 26%, 31%);
+    color: hsl(0, 0%, 100%);
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        top: 30px;
+        width: 300px;
+        left: 465px;
+        
+    }
+
+    .cal .calc {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 20px;
+    }
+
+    .cal .theme {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 7px;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+        flex-direction: row; 
+    }
+
+    .radio-btn{
+        display: flex;
+        padding: 20px 0 20px 20px;
+        border: 30px;
+    }
+
+    .radio-btn-num input{
+        margin-top: 5px;
+        color: black;
+        border-color: hsl(222, 26%, 31%);
+    }
+
+    .cal {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        gap: 170px;
+        align-items: center;
+    }
+
+    .calculation-Shown {
+        width: 280px;
+        background-color: hsl(223, 31%, 20%);
+        height:40px;
+        font-size: 32px;
+        font-weight: 700;
+        border-radius: 5px;
+        margin: 10px 0px;
+        font-family: 'League Spartan', sans-serif;
+        border: none;
+        outline: none;
+        text-align: end;
+        padding: 10px;
+        color: white;
+    }
+
+    .Tool-Box{
+        background-color: hsl(223, 31%, 20%);
+        padding: 20px 5px;
+        border-radius: 5px;
+    }
+
+    .delete-btn{
+        background-color: hsl(225, 21%, 49%);
+        text-shadow: hsl(224, 28%, 35%);
+        color: hsl(30, 25%, 89%);
+    }
+
+    .Tool-Box .Number-Box{
+        margin-bottom: 10px;
+    }
+
+    .Tool-Box .Number-Box button{
+        font-size: 20px;
+        width: 60px;
+        border-radius: 5px;
+        padding: 8px;
+        margin: 3px;
+        font-weight: 700;
+        color: hsl(225, 21%, 49%);
+        font-family: 'League Spartan', sans-serif;
+        box-shadow: 0px 2px 0px hsla(28, 16%, 65%,1);
+        background-color: hsl(30, 25%, 89%);
+        border: none;
+  }
+
+    
+
+    .btns button{
+        width: 130px;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 3px;
+    }
+ 
+    .btns .Reset{
+        background-color: hsl(225, 21%, 49%);
+        color: hsl(30, 25%, 89%);
+        border: none;
+        box-shadow: 0px 2px 0px hsla(224, 28%, 35%, 1);
+    
+    }
+
+    .Tool-Box .btns .Equal{
+        background-color: hsl(6, 63%, 50%);
+        color:  hsl(30, 25%, 89%);
+        box-shadow: 0 30 0 5 hsl(6, 70%, 34%);
+        border: none;
+        box-shadow: 0px 2px 0px hsla(6, 70%, 34%, 1);
+    }
+    
+
+
+   

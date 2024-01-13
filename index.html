@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Vikas Kumar</a>.
+  </div>
+
+  <div class="container">
+
+    <div class="cal">
+
+      <div class="calc">calc</div>
+
+      <div class="theme">
+        <div>THEME </div>
+        <div class="radio-btn">
+          <div class="radio-btn-num">
+            <label for="r-1">1</label>
+            <input onclick="theme1()" name="choose" id="r-1" type="radio">
+          </div>
+          <div class="radio-btn-num">
+            <label for="r-2">2</label>
+            <input onclick="theme2()" name="choose" id="r-2" type="radio">
+          </div>
+          <div class="radio-btn-num">
+            <label for="r-3">3</label>
+            <input onclick="theme3()" name="choose" id="r-3" type="radio">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <input type="text" readonly maxlength="18" class="calculation-Shown">
+
+    <div class="Tool-Box">
+
+      <div class="Number-Box">
+        <button id="Num-btn">7</button>
+        <button id="Num-btn">8</button>
+        <button id="Num-btn">9</button>
+        <button id="Num-btn"
+          style="background-color: hsl(225, 21%, 49%); color: hsl(30, 25%, 89%); box-shadow: 0px 2px 0px hsla(224, 28%, 35%, 1); font-size: 15px; padding: 11px;"
+          class="delete-btn">DEL</button>
+      </div>
+
+      <div class="Number-Box">
+        <button id="Num-btn">4</button>
+        <button id="Num-btn">5</button>
+        <button id="Num-btn">6</button>
+        <button id="Num-btn">+</button>
+      </div>
+
+      <div class="Number-Box">
+        <button id="Num-btn">1</button>
+        <button id="Num-btn">2</button>
+        <button id="Num-btn">3</button>
+        <button id="Num-btn">-</button>
+      </div>
+
+      <div class="Number-Box">
+        <button id="Num-btn">.</button>
+        <button id="Num-btn">0</button>
+        <button id="Num-btn">/</button>
+        <button id="Num-btn">x</button>
+      </div>
+
+      <div class="btns">
+        <button id="Num-btn" class="Reset">RESET</button>
+        <button id="Num-btn" class="Equal">=</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+
+ 
+</body>
+
+</html>
